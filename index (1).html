@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquette</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="nav">
+        <img src="logo.img" alt="LOGO" class="nav__logo">
+        <input type="button" value="Sign Up" class="nav__button">
+    </nav>
+    <div class="header">
+        <div class="header__h1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+        <div class="header_mail">
+            <div class="header__mail--mail"><input type="email" placeholder="Email"></div>
+            <input type="button" value="Submit" class="header__mail--button">
+        </div>
+    </div>
+    <div class="body">
+        <div class="body__lorem">
+            <div class="body__lorem--puzzle"><img src="images/puzzle.png" alt="puzzle"></div>
+            <div class="body__lorem--titre"><h3>Lorem Ipsum</h3></div>
+            <div  class="body__lorem--p"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
+        </div>
+        <div class="body__lorem">
+            <div class="body__lorem--puzzle"><img src="images/puzzle.png" alt="puzzle"></div>
+            <div class="body__lorem--titre"><h3>Lorem Ipsum</h3></div>
+            <div  class="body__lorem--p"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
+        </div>
+        <div class="body__lorem">
+            <div class="body__lorem--puzzle"><img src="images/puzzle.png" alt="puzzle"></div>
+            <div class="body__lorem--titre"><h3>Lorem Ipsum</h3></div>
+            <div  class="body__lorem--p"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
+        </div>
+    </div>
+    <hr>
+    <section class="foot">
+        <h2 class="foot__title">Contact us</h2>
+        <form class="foot__form" id="contactForm">
+            <div class="foot__form--name">
+                <input type="text" id='firstName' name="firstName" placeholder="First Name">
+                <label class="error-message" for="firstName" id="firstNameError">Veuillez renseigner un prénom.</label>
+                <input type="text" id='lastName' placeholder="Last Name">
+                <label class="error-message" for="lastName" id="lastNameError">Veuillez renseigner votre nom.</label>
+            </div>
+            <div class="foot__form--contact">
+                <input type="text" id='email' placeholder="Email">
+                <label class="error-message" for="email" id="emailError">Veuillez renseigner votre mail.</label>
+                <input type="text" id='phone' placeholder="Phone Number">
+                <label class="error-message" for="phone" id="phoneError">Veuillez renseigner votre numéro.</label>
+            </div>
+            <div class="foot__form--mess">
+                <textarea class="foot__form--mess--txt" name="message" id='message' placeholder="Type your message"></textarea>
+                <label class="error-message" for="message" id="messageError">Veuillez renseigner votre message.</label>
+            </div>
+            <div>
+                <input class="foot__form--button" type="submit" id='submit' value="Submit">
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+        <p>About - Contact - Terms of use - Privacy Policy</p>
+        <p>My website 2022 - All rights reserved</p>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
